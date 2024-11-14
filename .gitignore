@@ -1,0 +1,79 @@
+# Ignore all files starting with . or ~
+#######################################
+.*
+~*
+
+# Ignore project files/directories
+##################################
+node_modules/
+dist/
+upload/
+deploy.log
+config/shopify.yml
+npm-debug.log
+.env
+.env.*
+
+# Ignore OS generated files
+###########################
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore compiled source
+#########################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore packages
+##################
+# It's better to unpack these files and commit the raw source
+# Git has its own built-in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore log files and databases
+#################################
+*.log
+*.sql
+*.sqlite
+
+# Custom ignores
+#################
+*.sass-cache*
+.cache/*
+_site
+/.idea
+/.vscode
+secrets.json
+.jekyll-metadata
+.ruby-version
+
+# Whitelisted files
+####################
+!.gitignore
+!.gitkeep
+!.editorconfig
+!README.md
+!CHANGELOG.md
+!composer.json
+!.scss-lint.yml
+!.shopifyignore
+!.theme-check.yml
+
+# Specific assets to track
+###########################
